@@ -1,4 +1,4 @@
-package org.oldben.hellodropwizard;
+package octo.waddle.hellodropwizard;
 
 import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;

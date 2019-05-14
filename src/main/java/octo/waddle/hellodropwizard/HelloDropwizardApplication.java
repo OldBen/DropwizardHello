@@ -1,7 +1,7 @@
-package org.oldben.hellodropwizard;
+package octo.waddle.hellodropwizard;
 
-import org.oldben.hellodropwizard.resources.HelloWorldResource;
-import org.oldben.hellodropwizard.health.TemplateHealthCheck;
+import octo.waddle.hellodropwizard.resources.HelloWorldResource;
+import octo.waddle.hellodropwizard.health.TemplateHealthCheck;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;

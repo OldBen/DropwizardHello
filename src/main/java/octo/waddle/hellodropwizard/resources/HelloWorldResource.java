@@ -1,6 +1,6 @@
-package org.oldben.hellodropwizard.resources;
+package octo.waddle.hellodropwizard.resources;
 
-import org.oldben.hellodropwizard.api.Message;
+import octo.waddle.hellodropwizard.api.Message;
 import com.codahale.metrics.annotation.Timed;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

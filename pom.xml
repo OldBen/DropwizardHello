@@ -6,7 +6,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.oldben</groupId>
+    <groupId>octo.waddle</groupId>
     <artifactId>hellodropwizard</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <dropwizard.version>1.3.9</dropwizard.version>
-        <mainClass>org.oldben.hellodropwizard.HelloDropwizardApplication</mainClass>
+        <mainClass>octo.waddle.hellodropwizard.HelloDropwizardApplication</mainClass>
     </properties>
 
     <dependencyManagement>

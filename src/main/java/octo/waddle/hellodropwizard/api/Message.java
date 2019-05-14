@@ -1,4 +1,4 @@
-package org.oldben.hellodropwizard.api;
+package octo.waddle.hellodropwizard.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.Length;
