@@ -1,26 +1,18 @@
 package octo.waddle.hellodropwizard.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
 import org.hibernate.validator.constraints.Length;
 
 public class Message{
-    private long id;
 
+    @Getter
     private String content;
 
     public Message() {}
 
-    public Message(long id, String content) {
-        this.id = id;
+    public Message(String content) {
         this.content = content;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public String getContent() {
-        return content;
     }
 
 }

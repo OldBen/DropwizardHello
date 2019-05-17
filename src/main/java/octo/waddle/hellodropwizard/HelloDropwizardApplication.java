@@ -26,11 +26,9 @@ public class HelloDropwizardApplication extends Application<HelloDropwizardConfi
     public void run(final HelloDropwizardConfiguration configuration,
                     final Environment environment) {
         final HelloWorldResource resource = new HelloWorldResource(
-                configuration.getMessage(),
-                configuration.getName()
+                configuration.getMessage()
         );
-        final TemplateHealthCheck healthCheck =
-                new TemplateHealthCheck(configuration.getMessage());
+        final TemplateHealthCheck healthCheck = new TemplateHealthCheck();
         environment.healthChecks().register("template", healthCheck);
         environment.jersey().register(resource);
     }
