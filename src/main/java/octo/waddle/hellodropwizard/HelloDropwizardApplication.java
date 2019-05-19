@@ -1,10 +1,10 @@
 package octo.waddle.hellodropwizard;
 
-import octo.waddle.hellodropwizard.resources.HelloWorldResource;
-import octo.waddle.hellodropwizard.health.TemplateHealthCheck;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
+import octo.waddle.hellodropwizard.health.TemplateHealthCheck;
+import octo.waddle.hellodropwizard.resources.HelloWorldResource;
 
 public class HelloDropwizardApplication extends Application<HelloDropwizardConfiguration> {
 

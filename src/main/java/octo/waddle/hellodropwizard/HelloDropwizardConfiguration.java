@@ -1,34 +1,21 @@
 package octo.waddle.hellodropwizard;
 
 import io.dropwizard.Configuration;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import org.hibernate.validator.constraints.*;
-import javax.validation.constraints.*;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import org.hibernate.validator.constraints.NotEmpty;
 
+@Data
 public class HelloDropwizardConfiguration extends Configuration {
     @NotEmpty
+    @Getter
+    @Setter
     private String message;
 
     @NotEmpty
+    @Getter
+    @Setter
     private String name = "Stranger";
 
-    @JsonProperty
-    public String getMessage() {
-        return message;
-    }
-
-    @JsonProperty
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    @JsonProperty
-    public String getName() {
-        return name;
-    }
-
-    @JsonProperty
-    public void setName(String name) {
-        this.name = name;
-    }
 }

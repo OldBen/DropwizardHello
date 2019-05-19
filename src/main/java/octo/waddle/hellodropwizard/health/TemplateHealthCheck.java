@@ -1,4 +1,5 @@
 package octo.waddle.hellodropwizard.health;
+
 import com.codahale.metrics.health.HealthCheck;
 
 

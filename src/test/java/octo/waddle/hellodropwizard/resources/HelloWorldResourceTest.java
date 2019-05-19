@@ -1,15 +1,12 @@
 package octo.waddle.hellodropwizard.resources;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
-import io.dropwizard.jackson.Jackson;
-import javax.ws.rs.core.Application;
-import octo.waddle.hellodropwizard.HelloDropwizardApplication;
-import octo.waddle.hellodropwizard.api.Message;
-import org.glassfish.jersey.test.JerseyTest;
-import org.junit.Test;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.dropwizard.jackson.Jackson;
+import octo.waddle.hellodropwizard.api.Message;
+import org.junit.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloWorldResourceTest {
 
