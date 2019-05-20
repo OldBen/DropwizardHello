@@ -1,4 +1,4 @@
 logging:
   level: INFO
   loggers:
-    org.oldben: DEBUG
+    octo.waddle: DEBUG
